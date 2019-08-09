@@ -13,8 +13,8 @@ r = x.cov(y)/(x.std()*y.std())
 beta1=(r*y.std())/x.std()
 
 beta0=y.mean()-(beta1*x.mean())
-m=int(input("enter value"))
-y=(beta1*m)+beta0
+x=10
+y=(beta1*x)+beta0
 
 
 print("%.1f" %y)
